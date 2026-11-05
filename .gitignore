@@ -1,0 +1,26 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+
+# --- Virtual environments ---
+.venv/
+venv/
+
+# --- Environment & secrets ---
+.env
+.env.*
+*.env
+!.env.example
+
+# --- Generated reports and charts ---
+# Every run writes a .docx report and PNG charts here. They are run
+# artifacts built from live web research, not source, so none are committed.
+output/
+
+# --- Local diagram-tool output: run folders and receipts hold absolute local paths ---
+.archify/
+
+# --- OS / editor ---
+.DS_Store
+.idea/
+.vscode/
